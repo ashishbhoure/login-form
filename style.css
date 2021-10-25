@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid gray ;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-left: 55%;
+    /* margin-right: 0%; */
+    height: 50vh;
+}
+.box .form-group{
+    margin: 10px 0px 10px 0px;
+}
+.box button,input{
+    margin: 10px 0px 10px 0px;
+}

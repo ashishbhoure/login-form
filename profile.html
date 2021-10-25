@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Profile</title>
+    <script>
+        function logout(){
+            localStorage.removeItem('name');
+            localStorage.removeItem('email');
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <h1>Profile</h1>
+    <hr>
+    <button  onclick="logout()">logout</button>
+    <h3>welcome</h3>
+    <h3>Name : <script>document.write(localStorage.getItem('name'));</script></h3>
+    <h3>Email : <script>document.write(localStorage.getItem('email'));</script></h3>
+</body>
+</html>
